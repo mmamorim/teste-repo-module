@@ -1,0 +1,1 @@
+{"version":3,"file":"teste-repo-module.module.js","sources":["../index.js"],"sourcesContent":["\nconst fazAlgo = function() {\n    console.log(\"oi gente\");\n}\n\nexport default fazAlgo\n"],"names":["fazAlgo","console","log"],"mappings":"AACMA,IAAOA,EAAG,WACZC,QAAQC,IAAI,WACf"}

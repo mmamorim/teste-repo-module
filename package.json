@@ -2,10 +2,17 @@
   "name": "teste-repo-module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "index.js",
   "type": "module",
+  "exports": {
+    "require": "./dist/teste-repo-module.cjs",      
+    "default": "./dist/teste-repo-module.modern.js" 
+  },
+  "main": "./dist/teste-repo-module.cjs",
+  "module": "./dist/teste-repo-module.module.js",
+  "unpkg": "./dist/teste-repo-module.umd.js", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle"
   },
   "repository": {
     "type": "git",
@@ -17,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/mmamorim/teste-repo-module/issues"
   },
-  "homepage": "https://github.com/mmamorim/teste-repo-module#readme"
+  "homepage": "https://github.com/mmamorim/teste-repo-module#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
 }

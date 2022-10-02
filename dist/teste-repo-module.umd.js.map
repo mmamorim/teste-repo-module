@@ -1,0 +1,1 @@
+{"version":3,"file":"teste-repo-module.umd.js","sources":["../index.js"],"sourcesContent":["\nconst fazAlgo = function() {\n    console.log(\"oi gente\");\n}\n\nexport default fazAlgo\n"],"names":["console","log"],"mappings":"yOACgB,WACZA,QAAQC,IAAI,WACf"}
