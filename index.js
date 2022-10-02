@@ -1,2 +1,6 @@
 
-console.log("oi gente");
+const fazAlgo = function() {
+    console.log("oi gente");
+}
+
+export default fazAlgo
